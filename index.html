@@ -1,0 +1,767 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ОсОО МАН ГРУПП — Дорожно-строительная компания</title>
+
+<meta name="description" content="ОсОО МАН ГРУПП — дорожно-строительная компания. Аренда спецтехники, асфальтирование, дорожные и земляные работы по Кыргызстану.">
+<meta name="keywords" content="спецтехника Бишкек, аренда спецтехники, дорожное строительство, асфальтирование, каток, грейдер, экскаватор, XCMG, Бишкек, аренда спецтехники, спецтехника Бишкек, аренда экскаватора, аренда катка, аренда водовоза, аренда грейдера, дорожно-строительная техника, строительная техника в аренду, услуги спецтехники, аренда техники с оператором, спецтехника для стройки, техника для дорожных работ, аренда техники на сутки, аренда строительной техники Бишкек, аренда самосвала, планировка участка, выравнивание земли, доставка спецтехники, аренда спецтехники в Бишкеке, аренда спецтехники в Чуйской области, спецтехника Кыргызстан, аренда экскаватора Бишкек, аренда строительной техники Кыргызстан, аренда грейдера бишкек, аренда водовоза бишкек, асфальтирование дорог Бишкек, ремонт дорог Бишкек, строительство дорог Кыргызстан, дорожные работы Бишкек, укладка асфальта, ямочный ремонт дорог, асфальтирование территорий, асфальтирование парковок, асфальтирование дворов, капитальный ремонт дорог, дорожное строительство, благоустройство территории, подготовка дорожного основания, укладка щебня, укладка асфальтобетона, аренда грейдера Бишкек, аренда катка Бишкек, аренда спецтехники Бишкек, аренда дорожной техники, услуги автогрейдера, услуги дорожного катка, аренда водовоза Бишкек, аренда экскаватора, аренда самосвала, аренда техники с оператором, цена асфальтирования Бишкек, стоимость укладки асфальта, заказать асфальтирование, дорожная компания Бишкек, дорожно строительная компания, подрядчик дорожных работ, асфальтирование под ключ, дорожная техника Бишкек, аренда дорожной техники Кыргызстан, ремонт асфальта Бишкек, укладка нового асфальта, строительство трасс Кыргызстан, дорожные услуги Бишкек, услуги спецтехники Бишкек, асфальтирование Кыргызстан, дорожный каток XCMG, аренда грейдера XCMG, благоустройство дорог Бишкек, строительство и ремонт дорог, дорожные работы по Кыргызстану">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#f5f5f5;
+color:#111;
+}
+
+/* HEADER */
+
+.header{
+background:#050505;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo-box{
+display:flex;
+align-items:center;
+gap:18px;
+}
+
+.logo{
+width:72px;
+}
+
+.logo-text h2{
+color:#fff;
+font-size:38px;
+font-weight:800;
+}
+
+.logo-text p{
+color:#f4b400;
+font-size:13px;
+margin-top:4px;
+}
+
+.header-phone{
+display:flex;
+align-items:center;
+gap:18px;
+}
+
+.phone-circle{
+width:50px;
+height:50px;
+border:2px solid #f4b400;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:22px;
+color:#f4b400;
+}
+
+.header-phone a{
+color:#fff;
+text-decoration:none;
+font-size:28px;
+font-weight:700;
+}
+
+.header-phone span{
+display:block;
+color:#bbb;
+font-size:13px;
+margin-top:4px;
+}
+
+/* HERO */
+
+.hero{
+height:820px;
+background:
+linear-gradient(to right,
+rgba(0,0,0,.95) 30%,
+rgba(0,0,0,.25)),
+url('images/hero-bg.png') center/cover no-repeat;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+padding:0 70px;
+max-width:760px;
+}
+
+.hero h1{
+font-size:100px;
+line-height:.95;
+font-weight:900;
+color:#fff;
+}
+
+.hero h1 span{
+color:#f4b400;
+}
+
+.hero p{
+font-size:28px;
+line-height:1.5;
+color:#fff;
+margin-top:40px;
+margin-bottom:55px;
+max-width:650px;
+}
+
+.hero-features{
+display:flex;
+gap:55px;
+flex-wrap:nowrap;
+align-items:flex-start;
+}
+
+.feature{
+color:#fff;
+max-width:140px;
+}
+
+.feature-icon{
+font-size:42px;
+color:#f4b400;
+margin-bottom:12px;
+}
+
+.feature h4{
+font-size:18px;
+margin-bottom:5px;
+}
+
+.feature span{
+font-size:15px;
+color:#ddd;
+line-height:1.5;
+}
+
+/* ABOUT */
+
+.about{
+padding:90px 60px;
+background:#fff;
+}
+
+.about-wrapper{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about-logo{
+text-align:center;
+}
+
+.about-logo img{
+width:220px;
+}
+
+.about-logo h2{
+font-size:56px;
+font-weight:800;
+margin-top:18px;
+}
+
+.about-logo p{
+margin-top:10px;
+color:#666;
+}
+
+.about-text{
+padding:0 20px;
+border-left:1px solid #eee;
+border-right:1px solid #eee;
+}
+
+.about-text h3{
+font-size:44px;
+margin-bottom:30px;
+}
+
+.about-text p{
+font-size:20px;
+line-height:1.9;
+color:#333;
+}
+
+.about-right{
+display:flex;
+flex-direction:column;
+gap:35px;
+}
+
+.about-item{
+display:flex;
+gap:18px;
+align-items:flex-start;
+}
+
+.about-item div{
+font-size:42px;
+color:#f4b400;
+}
+
+.about-item p{
+font-size:20px;
+line-height:1.6;
+}
+
+/* EQUIPMENT */
+
+.equipment{
+padding:80px 60px;
+}
+
+.section-title{
+font-size:54px;
+font-weight:800;
+margin-bottom:12px;
+}
+
+.section-subtitle{
+font-size:20px;
+color:#666;
+margin-bottom:45px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.card-content{
+padding:25px;
+}
+
+.card-content h3{
+font-size:30px;
+margin-bottom:18px;
+}
+
+.card-content ul{
+list-style:none;
+}
+
+.card-content li{
+margin-bottom:12px;
+font-size:17px;
+color:#555;
+}
+
+/* ADVANTAGES */
+
+.advantages{
+background:#fff;
+padding:80px 60px;
+}
+
+.advantages h2{
+text-align:center;
+font-size:54px;
+margin-bottom:50px;
+}
+
+.advantages-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.adv-card{
+background:#fafafa;
+border:1px solid #eee;
+border-radius:18px;
+padding:40px 20px;
+text-align:center;
+}
+
+.adv-card div{
+font-size:52px;
+color:#f4b400;
+margin-bottom:18px;
+}
+
+.adv-card p{
+font-size:20px;
+line-height:1.5;
+}
+
+/* FOOTER */
+
+.footer{
+background:#050505;
+padding:60px;
+color:#fff;
+}
+
+.footer-wrapper{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:80px;
+}
+
+.footer-logo{
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.footer-logo img{
+width:70px;
+}
+
+.footer-logo h2{
+font-size:38px;
+}
+
+.footer-logo span{
+color:#bbb;
+font-size:13px;
+}
+
+.footer-description{
+margin-top:30px;
+color:#ccc;
+line-height:1.8;
+max-width:500px;
+}
+
+.footer h3{
+font-size:32px;
+color:#f4b400;
+margin-bottom:30px;
+}
+
+.footer-contact{
+margin-bottom:18px;
+font-size:18px;
+color:#ddd;
+}
+
+.whatsapp{
+position:fixed;
+right:25px;
+bottom:25px;
+width:70px;
+height:70px;
+border-radius:50%;
+background:#25D366;
+color:#fff;
+font-size:34px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+z-index:999;
+}
+
+/* MOBILE */
+
+@media(max-width:1000px){
+
+.header{
+flex-direction:column;
+gap:20px;
+padding:20px;
+text-align:center;
+}
+
+.hero{
+height:auto;
+padding:120px 0;
+}
+
+.hero-content{
+padding:0 25px;
+}
+
+.hero h1{
+font-size:62px;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.about-wrapper{
+grid-template-columns:1fr;
+}
+
+.about-text{
+border:none;
+padding:0;
+}
+
+.footer-wrapper{
+grid-template-columns:1fr;
+}
+
+.section-title,
+.advantages h2{
+font-size:40px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo-box">
+<img src="images/logo.png" class="logo" alt="МАН ГРУПП">
+
+<div class="logo-text">
+<h2>МАН ГРУПП</h2>
+<p>Общество с Ограниченной Ответственностью</p>
+</div>
+</div>
+
+<div class="header-phone">
+<div class="phone-circle">☎</div>
+
+<div>
+<a href="tel:+996550788222">+996 550 788 222</a>
+<span>Ежедневно с 8:00 до 18:00</span>
+</div>
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>
+ДОРОЖНО-<br>
+<span>СТРОИТЕЛЬНАЯ</span><br>
+КОМПАНИЯ
+</h1>
+
+<p>
+Современная техника и профессиональный подход
+для дорожных и строительных работ по Кыргызстану
+</p>
+
+<div class="hero-features">
+
+<div class="feature">
+<div class="feature-icon">🛡</div>
+<h4>Качество</h4>
+<span>на каждом этапе</span>
+</div>
+
+<div class="feature">
+<div class="feature-icon">🕒</div>
+<h4>Соблюдение</h4>
+<span>сроков</span>
+</div>
+
+<div class="feature">
+<div class="feature-icon">👥</div>
+<h4>Профессиональная</h4>
+<span>команда</span>
+</div>
+
+<div class="feature">
+<div class="feature-icon">🚜</div>
+<h4>Современная</h4>
+<span>техника</span>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="about">
+
+<div class="about-wrapper">
+
+<div class="about-logo">
+<img src="images/logo.png" alt="logo">
+<h2>МАН ГРУПП</h2>
+<p>Общество с Ограниченной Ответственностью</p>
+</div>
+
+<div class="about-text">
+<h3>О КОМПАНИИ</h3>
+
+<p>
+ОсОО «МАН ГРУПП» — дорожно-строительная компания,
+специализирующаяся на строительстве и ремонте
+автомобильных дорог, асфальтировании,
+земляных работах и благоустройстве территорий.
+</p>
+
+<br>
+
+<p>
+Мы работаем по всей территории Кыргызстана
+и стремимся к высокому качеству,
+соблюдению сроков и безопасности
+на каждом этапе работ.
+</p>
+
+</div>
+
+<div class="about-right">
+
+<div class="about-item">
+<div>🚜</div>
+<p>Дорожно-строительная компания</p>
+</div>
+
+<div class="about-item">
+<div>📋</div>
+<p>Соблюдение стандартов качества и требований безопасности</p>
+</div>
+
+<div class="about-item">
+<div>👥</div>
+<p>Опытная команда специалистов и ответственный подход к каждому проекту</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="equipment">
+
+<h2 class="section-title">ТЕХНИКА В АРЕНДУ</h2>
+<p class="section-subtitle">Широкий выбор современной техники для ваших задач</p>
+
+<div class="cards">
+
+<div class="card">
+<img src="images/howo.png" alt="HOWO">
+<div class="card-content">
+<h3>Самосвал HOWO</h3>
+<ul>
+<li>Грузоподъемность: 25 т</li>
+<li>Объем кузова: 20 м³</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/pogruzchik.png" alt="Погрузчик">
+<div class="card-content">
+<h3>Фронтальный погрузчик</h3>
+<ul>
+<li>Объем ковша: 3.0 м³</li>
+<li>Грузоподъемность: 5 т</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/asfalt.png" alt="Асфальтоукладчик">
+<div class="card-content">
+<h3>Асфальтоукладчик</h3>
+<ul>
+<li>Ширина укладки: до 6 м</li>
+<li>Производительность: до 300 т/ч</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/excavator.png" alt="Экскаватор">
+<div class="card-content">
+<h3>Экскаватор HYUNDAI</h3>
+<ul>
+<li>Объем ковша: 1.2 м³</li>
+<li>Глубина копания: 6.5 м</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/katok.png" alt="Каток">
+<div class="card-content">
+<h3>Каток XCMG</h3>
+<ul>
+<li>Ширина вальца: 2.13 м</li>
+<li>Рабочий вес: 20 т</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/grader.png" alt="Автогрейдер">
+<div class="card-content">
+<h3>Автогрейдер XCMG</h3>
+<ul>
+<li>Ширина отвала: 3.7 м</li>
+<li>Эксплуатационная масса: 18 т</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="images/vodovoz.png" alt="Водовоз">
+<div class="card-content">
+<h3>Водовоз FAW</h3>
+<ul>
+<li>Объем цистерны: 20 м³</li>
+<li>Полив и доставка воды</li>
+</ul>
+
+</div>
+</div>
+
+<div class="card">
+<img src="images/dvuhvalcoviy-katok.png" alt="Двухвальцовый каток">
+
+<div class="card-content">
+<h3>Каток XCMG двухвальцовый</h3>
+
+<ul>
+<li>Тип: асфальтобетонный</li>
+<li>Рабочий вес: 10 т</li>
+<li>Высокое качество уплотнения</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="advantages">
+
+<h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+
+<div class="advantages-grid">
+
+<div class="adv-card">
+<div>🛡</div>
+<p>Качество<br>на каждом этапе</p>
+</div>
+
+<div class="adv-card">
+<div>🕒</div>
+<p>Соблюдение<br>сроков</p>
+</div>
+
+<div class="adv-card">
+<div>🚜</div>
+<p>Современная техника<br></p>
+</div>
+
+<div class="adv-card">
+<div>👥</div>
+<p>Профессиональная<br>команда</p>
+</div>
+
+<div class="adv-card">
+<div>🤝</div>
+<p>Надёжность и<br>ответственность</p>
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-wrapper">
+
+<div>
+
+<div class="footer-logo">
+<img src="images/logo.png" alt="logo">
+
+<div>
+<h2>МАН ГРУПП</h2>
+<span>Общество с Ограниченной Ответственностью</span>
+</div>
+
+</div>
+
+<p class="footer-description">
+Ваш надёжный партнёр в реализации дорожных проектов.
+Мы строим дороги, которые соединяют города и людей.
+</p>
+
+</div>
+
+<div>
+
+<h3>КОНТАКТЫ</h3>
+
+<div class="footer-contact">+996 550 788 222</div>
+<div class="footer-contact">+996 709 788 222</div>
+<div class="footer-contact">Кыргызстан, г. Бишкек</div>
+<div class="footer-contact">info@mangroup.kg</div>
+<div class="footer-contact">Ежедневно с 8:00 до 18:00</div>
+
+</div>
+
+</div>
+
+</footer>
+
+<a href="https://wa.me/996550788222" class="whatsapp" target="_blank">
+💬
+</a>
+
+</body>
+</html>
+
+

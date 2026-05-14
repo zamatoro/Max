@@ -413,32 +413,93 @@ z-index:999;
 
 @media(max-width:1000px){
 
+/* HEADER */
+
 .header{
 flex-direction:column;
-gap:20px;
-padding:20px;
+gap:18px;
+padding:18px 20px;
 text-align:center;
 }
 
+.logo-box{
+flex-direction:column;
+gap:12px;
+}
+
+.logo{
+width:95px;
+}
+
+.logo-text h2{
+font-size:34px;
+}
+
+.logo-text p{
+font-size:12px;
+}
+
+.header-phone{
+justify-content:center;
+}
+
+.header-phone a{
+font-size:22px;
+}
+
+/* HERO */
+
 .hero{
 height:auto;
-padding:120px 0;
+padding:120px 0 80px;
+background-position:center;
 }
 
 .hero-content{
-padding:0 25px;
+padding:0 22px;
+max-width:100%;
 }
 
 .hero h1{
-font-size:62px;
+font-size:52px;
+line-height:1;
 }
 
 .hero p{
-font-size:22px;
+font-size:20px;
+margin-top:25px;
+margin-bottom:40px;
+}
+
+/* FEATURES */
+
+.hero-features{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.feature{
+width:100%;
+}
+
+/* ABOUT */
+
+.about{
+padding:60px 25px;
 }
 
 .about-wrapper{
 grid-template-columns:1fr;
+gap:45px;
+}
+
+.about-logo img{
+width:150px;
+}
+
+.about-logo h2{
+font-size:40px;
 }
 
 .about-text{
@@ -446,17 +507,82 @@ border:none;
 padding:0;
 }
 
-.footer-wrapper{
+.about-text h3{
+font-size:34px;
+}
+
+.about-text p{
+font-size:18px;
+line-height:1.8;
+}
+
+/* EQUIPMENT */
+
+.equipment{
+padding:60px 20px;
+}
+
+.section-title{
+font-size:38px;
+}
+
+.section-subtitle{
+font-size:18px;
+}
+
+.cards{
 grid-template-columns:1fr;
 }
 
-.section-title,
+/* ADVANTAGES */
+
+.advantages{
+padding:60px 20px;
+}
+
 .advantages h2{
-font-size:40px;
+font-size:38px;
+}
+
+.advantages-grid{
+grid-template-columns:1fr 1fr;
+}
+
+/* FOOTER */
+
+.footer{
+padding:50px 25px;
+}
+
+.footer-wrapper{
+grid-template-columns:1fr;
+gap:45px;
+}
+
+.footer-logo{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.footer-logo h2{
+font-size:32px;
+}
+
+.footer h3{
+font-size:28px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+width:60px;
+height:60px;
+font-size:28px;
+right:18px;
+bottom:18px;
 }
 
 }
-
 </style>
 </head>
 

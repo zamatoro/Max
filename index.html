@@ -410,33 +410,36 @@ z-index:999;
 }
 
 /* MOBILE */
+@media(max-width:768px){
 
-@media(max-width:1000px){
+body{
+overflow-x:hidden;
+}
 
 /* HEADER */
 
 .header{
+padding:20px 15px;
 flex-direction:column;
 gap:18px;
-padding:18px 20px;
-text-align:center;
 }
 
 .logo-box{
 flex-direction:column;
 gap:12px;
+text-align:center;
 }
 
 .logo{
-width:95px;
+width:90px;
 }
 
 .logo-text h2{
-font-size:34px;
+font-size:32px;
 }
 
 .logo-text p{
-font-size:12px;
+font-size:11px;
 }
 
 .header-phone{
@@ -444,31 +447,33 @@ justify-content:center;
 }
 
 .header-phone a{
-font-size:22px;
+font-size:18px;
 }
 
 /* HERO */
 
 .hero{
 height:auto;
-padding:120px 0 80px;
+padding:70px 0;
 background-position:center;
 }
 
 .hero-content{
-padding:0 22px;
+padding:0 18px;
 max-width:100%;
 }
 
 .hero h1{
-font-size:52px;
+font-size:44px;
 line-height:1;
+word-break:break-word;
 }
 
 .hero p{
-font-size:20px;
-margin-top:25px;
-margin-bottom:40px;
+font-size:18px;
+line-height:1.6;
+margin-top:22px;
+margin-bottom:35px;
 }
 
 /* FEATURES */
@@ -476,30 +481,43 @@ margin-bottom:40px;
 .hero-features{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:25px;
+gap:18px;
+margin-top:20px;
 }
 
 .feature{
 width:100%;
 }
 
+.feature-icon{
+font-size:30px;
+}
+
+.feature h4{
+font-size:16px;
+}
+
+.feature span{
+font-size:12px;
+}
+
 /* ABOUT */
 
 .about{
-padding:60px 25px;
+padding:50px 18px;
 }
 
 .about-wrapper{
 grid-template-columns:1fr;
-gap:45px;
+gap:35px;
 }
 
 .about-logo img{
-width:150px;
+width:130px;
 }
 
 .about-logo h2{
-font-size:40px;
+font-size:34px;
 }
 
 .about-text{
@@ -508,55 +526,74 @@ padding:0;
 }
 
 .about-text h3{
-font-size:34px;
+font-size:30px;
 }
 
 .about-text p{
-font-size:18px;
+font-size:16px;
 line-height:1.8;
+}
+
+.about-right{
+gap:22px;
+}
+
+.about-item p{
+font-size:16px;
 }
 
 /* EQUIPMENT */
 
 .equipment{
-padding:60px 20px;
+padding:50px 15px;
 }
 
 .section-title{
-font-size:38px;
+font-size:34px;
 }
 
 .section-subtitle{
-font-size:18px;
+font-size:16px;
 }
 
 .cards{
 grid-template-columns:1fr;
+gap:18px;
+}
+
+.card img{
+height:220px;
+}
+
+.card-content h3{
+font-size:24px;
 }
 
 /* ADVANTAGES */
 
 .advantages{
-padding:60px 20px;
+padding:50px 15px;
 }
 
 .advantages h2{
-font-size:38px;
+font-size:34px;
+margin-bottom:30px;
 }
 
 .advantages-grid{
-grid-template-columns:1fr 1fr;
+grid-template-columns:1fr;
+gap:18px;
 }
 
 /* FOOTER */
 
 .footer{
-padding:50px 25px;
+padding:45px 18px;
 }
 
 .footer-wrapper{
 grid-template-columns:1fr;
-gap:45px;
+gap:35px;
 }
 
 .footer-logo{
@@ -565,24 +602,25 @@ align-items:flex-start;
 }
 
 .footer-logo h2{
-font-size:32px;
+font-size:28px;
 }
 
 .footer h3{
-font-size:28px;
+font-size:26px;
 }
 
 /* WHATSAPP */
 
 .whatsapp{
-width:60px;
-height:60px;
-font-size:28px;
-right:18px;
-bottom:18px;
+width:58px;
+height:58px;
+font-size:26px;
+right:15px;
+bottom:15px;
 }
 
 }
+
 </style>
 </head>
 
